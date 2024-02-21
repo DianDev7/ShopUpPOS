@@ -1,0 +1,42 @@
+﻿@model List<Users> 
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="row col-6">
+            <h2 class="text-primary">
+                User List
+            </h2>
+        </div>
+        <div class="row col-6 ">
+            <a asp-controller="" asp-action="" class="btn btn-primary">
+                <i class="bi bi-person-plus-fill"></i> Add Users
+            </a>
+        </div>
+    </div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+
+    
+    <tr>
+        <th>
+            User Name
+        </th>
+        <th>    
+            Status
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(var obj in Model.OrderBy(i => i.Status)){
+             <tr>
+            <td>
+                @obj.Name
+            </td>
+            <td>
+                @obj.Status 
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+</div>
