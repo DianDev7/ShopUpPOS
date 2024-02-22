@@ -19,5 +19,10 @@ namespace ShopUpPOS.Controllers
             List<Users> objUsers = _db.Users.ToList();
             return View(objUsers);
         }
+
+        public IActionResult AddUser()
+        {
+            return View();
+        }
     }
 }
