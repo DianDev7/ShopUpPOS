@@ -38,13 +38,13 @@ namespace ShopUpPOS.Controllers
                 return View();
 
         }
-        public IActionResult Edit(int? name)
+        public IActionResult Edit(string? name)
         {
-            if(name== null || name == 0)
+            if(name== null)
             {
                 return NotFound();
             }
-            Users? UserformDb = _db.Users.Find(name);
+            Users? UserformDb = _db.Users.FirstOrDefault(x => x.Name == name);
 
             if (UserformDb == null)
             {
