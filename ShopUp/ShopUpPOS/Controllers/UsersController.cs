@@ -24,5 +24,49 @@ namespace ShopUpPOS.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult AddUser(Users objUser)
+        {
+
+            if (ModelState.IsValid)
+            {
+                _db.Users.Add(objUser);
+                _db.SaveChanges();
+                return RedirectToAction("Index", "Users");
+            }
+            else
+                return View();
+
+        }
+        public IActionResult Edit(int? name)
+        {
+            if(name== null || name == 0)
+            {
+                return NotFound();
+            }
+            Users? UserformDb = _db.Users.Find(name);
+
+            if (UserformDb == null)
+            {
+                return NotFound();
+            }
+            return View(UserformDb);
+        }
+        [HttpPost]
+        public IActionResult Edit(Users objUser)
+        {
+
+            if (ModelState.IsValid)
+            {
+                _db.Users.Add(objUser);
+                _db.SaveChanges();
+                return RedirectToAction("Index", "Users");
+            }
+            else
+                return View();
+
+        }
+
+
     }
 }

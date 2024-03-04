@@ -3,10 +3,10 @@
 <form method="post">
     <div class="border p-3 mt-4">
         <div class="row pb-2">
-            <h2 class="text-primary">Add User</h2>
-            <hr/>
+            <h2 class="text-primary">Edit User</h2>
+            <hr />
         </div>
-        
+
         <div class="mb-3">
             <label asp-for="Name"></label>
             <input asp-for="Name" class="form-control" />
@@ -18,13 +18,13 @@
             <span asp-validation-for="Status" class="text-danger"></span>
 
         </div>
-        <button type="submit" class="btn btn-primary" style="width:150px">Add</button>
+        <button type="submit" class="btn btn-primary" style="width:150px">Update</button>
         <a asp-controller="Users" asp-action="index" class="btn btn-secondary" style="width:150px">Back to Users</a>
     </div>
 </form>
 
-@section Scripts{
-@{
-    <partial name="_ValidationScriptsPartial"/>
-}
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
 }
