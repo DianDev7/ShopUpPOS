@@ -1,6 +1,7 @@
 ﻿ using Microsoft.AspNetCore.Mvc;
 using ShopUpPOS.Data;
 using ShopUpPOS.Models;
+using static Azure.Core.HttpHeader;
 
 namespace ShopUpPOS.Controllers
 {
@@ -58,7 +59,7 @@ namespace ShopUpPOS.Controllers
 
             if (ModelState.IsValid)
             {
-                _db.Users.Add(objUser);
+                _db.Users.Update(objUser);
                 _db.SaveChanges();
                 return RedirectToAction("Index", "Users");
             }
@@ -66,7 +67,34 @@ namespace ShopUpPOS.Controllers
                 return View();
 
         }
+        public IActionResult Delete(string? Id)
+        {
+            if (Id == null)
+            {
+                return NotFound();
+            }
+            Users? UserformDb = _db.Users.Find(Id);
+
+            if (UserformDb == null)
+            {
+                return NotFound();
+            }
+            return View(UserformDb);
+        }
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeletePOST(int? Id)
+        {
+            Users? objuser = _db.Users.Find(Id);
+               if (objuser == null)
+            {
+                return NotFound();
+            }
+               _db.Users.Remove(objuser);
+               _db.SaveChanges();
+               return RedirectToAction("Index");
+            
+        }
 
 
-    }
+    } 
 }

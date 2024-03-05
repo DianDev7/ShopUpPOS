@@ -29,6 +29,9 @@
     <tbody>
         @foreach(var obj in Model.OrderBy(i => i.Status)){
              <tr>
+                    <td>
+                        @obj.Id
+                    </td>
             <td>
                 @obj.Name
             </td>
@@ -40,7 +43,7 @@
                             <a asp-controller="Users" asp-action="Edit" asp-route-name="@obj.Name" class="btn">
                                 <i class="bi bi-pencil-square">Edit</i>
                             </a>
-                            <a asp-controller="Users" asp-action="Delete" class="btn">
+                            <a asp-controller="Users" asp-action="Delete" asp-route-name="@obj.Id" class="btn">
                                 <i class="bi bi-trash-fill">Delete</i>
                             </a>
                         </div>

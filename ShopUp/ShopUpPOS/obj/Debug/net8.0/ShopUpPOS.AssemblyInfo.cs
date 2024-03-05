@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopUpPOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+659c251bceb587fd5728fef5b496303c41518719")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adf8f943b57564ef9f75cbceda30b79d46d3b113")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopUpPOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopUpPOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

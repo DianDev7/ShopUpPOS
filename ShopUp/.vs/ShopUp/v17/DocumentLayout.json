@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\views\\users\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\views\\users\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|c:\\users\\admin\\documents\\github\\shopuppos\\shopup\\shopuppos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0501207-897F-4A36-8424-45337D60F63B}|ShopUpPOS\\ShopUpPOS.csproj|solutionrelative:shopuppos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +46,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ShopUpPOS\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "ShopUpPOS\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T12:12:44.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopUpPOS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ShopUpPOS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T15:13:19.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "ShopUpPOS\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Models\\Users.cs",
+              "RelativeToolTip": "ShopUpPOS\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:15:24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "ShopUpPOS\\Views\\Users\\Edit.cshtml",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Users\\Edit.cshtml",
               "RelativeToolTip": "ShopUpPOS\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T09:31:32.46Z",
+              "WhenOpened": "2024-03-04T15:14:50.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Users\\AddUser.cshtml",
-              "RelativeDocumentMoniker": "ShopUpPOS\\Views\\Users\\AddUser.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Users\\AddUser.cshtml",
-              "RelativeToolTip": "ShopUpPOS\\Views\\Users\\AddUser.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T09:20:44.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "ShopUpPOS\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Controllers\\UsersController.cs",
               "RelativeToolTip": "ShopUpPOS\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAADwvz0AAAAiAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAADwv0UAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-22T18:47:38.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "ShopUpPOS\\Views\\Users\\Index.cshtml",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\ShopUpPOS\\ShopUp\\ShopUpPOS\\Views\\Users\\Index.cshtml",
               "RelativeToolTip": "ShopUpPOS\\Views\\Users\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAABTAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-18T15:05:22.477Z"
+              "WhenOpened": "2024-02-18T15:05:22.477Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -15,6 +15,5 @@ namespace ShopUpPOS.Models
 
         public string Status { get; set; }
 
-
     }
 }
