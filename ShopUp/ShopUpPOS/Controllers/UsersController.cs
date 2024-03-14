@@ -67,7 +67,7 @@ namespace ShopUpPOS.Controllers
                 return View();
 
         }
-        public IActionResult Delete(string? Id)
+        public IActionResult Delete(int? Id)
         {
             if (Id == null)
             {
